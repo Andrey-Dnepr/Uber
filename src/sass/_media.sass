@@ -1,0 +1,316 @@
+@media (max-width: 1400px)
+    .menu
+        .menu_border
+            margin: 0 20px 0 20px
+
+@media (max-width: 1200px)
+    .menu
+        .menu_border
+            margin: 0 10px 0 10px
+    .promo
+        .promo_header
+            font-size: 50px
+    .advantage
+        .my-col-row
+            padding-left: calc(var(--bs-gutter-x) * .5)
+        .advantage_text
+            width: 280px
+    .subheader
+        .call_waite
+            font-size: 13px
+            height: 43px
+            margin-top: 20px
+    .mobile
+        .mobile_item
+            width: 288px
+            height: 252px
+    .app
+        transform: translateY(-50px)
+    .social
+        transform: translateY(-53px)
+
+@media (max-width: 991px)
+    .menu
+        padding: 13px 0
+        .menu_border
+            margin: 0 10px 0 10px
+        .menu_link
+            font-size: 13px
+    .subheader
+        .subheader_logo
+            img
+                width: 100%
+        .logo_descr
+            font-size: 12px
+        .call_number
+            font-size: 20px
+            text-align: center
+        .call_text
+            text-align: center
+    .promo
+        .promo_btn
+            margin: 50px auto
+    .advantage
+        .my-col
+            display: block
+        .advantage_logo
+            margin: 0 auto
+            margin-bottom: 10px
+        .advantage_text
+            width: 100%
+    .mobile
+        min-height: 730px
+        .mobile_item
+            width: 200px 
+            height: 175px
+            padding-top: 30px
+        .mobile_item_subtitle
+            font-size: 14px
+            line-height: 20px
+    .car
+        min-height: 775px
+        .car_img
+            width: 80%
+
+@media (max-width: 767px)
+    .menu
+        padding: 20px 15px
+        position: fixed
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        flex-direction: column
+        background-color: rgba(0, 0, 0, .8)
+        transition: 1s all
+        .menu_border
+            display: none
+        .menu_link
+            display: block
+            margin-top: 10px
+            font-size: 20px
+            text-align: center
+            vertical-align: middle
+    .hamburger
+        display: block
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 10px
+        width: 26px
+        height: 12px
+        span
+            display: block
+            background-color: #fff
+            height: 2px
+            margin-bottom: 2px
+            transition: 0.8s all
+    .hamburger_active
+        span
+            margin-bottom: -2px
+            &:nth-child(1)
+                transform: translateY(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg)                      
+    .subheader
+        .logo_descr
+            font-size: 9px
+    .promo
+        height: 750px
+        padding-bottom: 15px
+        .promo_header
+            font-size: 40px
+            line-height: 40px
+        .promo_subheader
+            font-size: 30px
+            line-height: 30px
+    .car
+        min-height: 660px   
+    .menu_active
+            left: 0     
+    .app
+        width: 200px
+    .app_img
+        width: 29%
+
+@media (max-width: 575px)
+    nav
+        height: 30px
+    .menu
+        width: 85%
+    .hamburger
+        width: 20px
+    .subheader
+        height: 60px
+        top: 30px
+        .subheader_logo
+            padding-left: 10px
+        .logo_descr
+            display: none
+        .call_text
+            display: none
+        .call_number
+            position: absolute
+            right: 33px
+            padding: 0
+            margin-top: 7px
+            font-size: 12px
+            font-weight: 400
+        .call_waite
+            position: absolute
+            right: 18px
+            top: 25px
+            width: 116px
+            height: 28px
+            font-size: 10px
+            margin-top: 0px
+    .promo
+        height: 430px
+        padding-top: 131px
+        .promo_header
+            font-size: 30px
+            line-height: 1.2
+            font-weight: 900
+        .promo_subheader
+            font-size: 20px
+            font-weight: 700
+            line-height: 25px
+        .promo_descr
+            display: none
+        .promo_btn
+            margin: 0 auto
+            margin-top: 70px
+            width: 216px
+            height: 56px
+            font-size: 16px
+            font-weight: 400
+    .advantage
+        padding: 22px 0 5px
+        .title
+            font-size: 16px
+            font-weight: 700
+            text-transform: uppercase
+            color: #222222
+            margin-top: 15px
+        .advantage_logo
+            width: 100px
+            height: 100px
+    .mobile
+        padding: 22px 0 24px
+        .title
+            font-size: 16px
+            font-weight: 700
+            margin: 15px 0 11px
+        .subtitle
+            font-size: 14px
+            font-weight: 400
+        .mobile_item
+            width: 290px
+            height: 254px
+            padding-top: 70px
+            .mobile_item_subtitle
+                font-size: 18px
+                line-height: 31px
+                font-weight: 400
+                padding: 0 20px
+    .car
+        background: none
+        background-color: #070716
+        min-height: 390px
+        padding: 25px 0 0
+        .title
+            display: none
+        .subtitle
+            display: none
+        .car_img
+            width: 90%
+            margin-top: 35px
+            padding-right: 5px
+        .car_tagline
+            margin-top: 15px
+            font-size: 17px
+            padding: 0 30px
+            line-height: 24px
+            font-weight: 300
+            color: #ffffff
+    .require
+        padding: 25px 0 5px
+        .title
+            font-size: 16px
+            font-weight: 700
+            margin: 12px 0 0
+            line-height: 16px
+        .require_block
+            margin: 30px 0 0
+            .require_title
+                font-size: 16px
+                line-height: 24px
+                font-weight: 400
+            li
+                font-size: 14px
+                line-height: 1.2
+                font-weight: 300
+            .require_descr
+                font-size: 14px
+    .world
+        height: 360px
+        padding-top: 25px
+        .title
+            margin-top: 15px
+            line-height: 15px
+            font-size: 16px
+            font-weight: 700
+        .subtitle
+            margin: 0 auto
+            font-size: 14px
+            line-height: 14px
+            font-weight: 400
+        .world_map
+            margin-top: 215px
+    footer
+        height: 245px
+        padding-top: 25px
+        .footer_line
+            width: 253px
+        .footer_bg_line
+            display: none
+        .footer_nav_big
+            margin-top: 18px
+            .footer_nav_big_item
+                padding: 0 5px
+                font-size: 14px
+                line-height: 14px
+                font-weight: 300
+        .footer_nav_small
+            width: 250px
+            margin: 0 auto
+            margin-top: 6px
+            flex-wrap: wrap
+            justify-content: space-between
+            .footer_nav_small_item
+                padding: 3px 15px
+                font-size: 11px
+                line-height: 11px
+                font-weight: 300
+        .footer_language
+            margin-top: 10px
+        .social
+            justify-content: center
+            margin-top: 10px
+            position: static
+            transform: none
+            .social_item
+                margin: 0 5px 0 5px
+        .app
+            margin: 0 auto
+            margin-top: 20px
+            position: static
+            transform: none
+            width: 250px
+        .app_img
+            width: 30%
+
+            
+
